@@ -14,7 +14,7 @@ const sequelize = require("./db/db.js");
 // Creamos una instancia de Express
 const app = express();
 // Configuramos el puerto
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 8000;
 
 // Middleware
 
