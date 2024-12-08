@@ -24,7 +24,7 @@ app.use(cors());
 app.use(express.json());
 
 // Rutas relacionadas con las notas
-app.use("/api/notes", notesRoutes);
+app.use("/blogs", notesRoutes);
 
 // Iniciar el servidor y sincronizar la base de datos
 sequelize.sync({ force: false }).then(() => {

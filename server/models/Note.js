@@ -6,18 +6,14 @@ const { DataTypes } = require("sequelize");
 const sequelize = require("../db/db.js");
 
 // Creamos un modelo de datos para las notas
-const Note = sequelize.define("Note", {
+const Note = sequelize.define("blogs", {
   title: {
     type: DataTypes.STRING,
-    allowNull: false,
+    // allowNull: false,
   },
   content: {
     type: DataTypes.STRING,
-    allowNull: false,
-  },
-  completed: {
-    type: DataTypes.BOOLEAN,
-    defaultValue: false,
+    // allowNull: false,
   },
 });
 
